@@ -26,8 +26,15 @@ class elanqoyy:
         except:
             print("Bu adlı not var!")
             print("Not adı eyni olduğu üçün elanınız saxlanılmadı!")  
-
-elan = elanqoyy()
-elan.eylansaxla()
+if (sys.argv[1] == "elan" and sys.argv[2] == "yarat"):
+    elan = elanqoyy()
+    elan.eylansaxla()
+elif sys.argv[1] == "elan" and sys.argv[2] == "sil":
+    try:
+        name = input("Silinəcək not adını daxil et: ")
+        os.remove(name)
+        print(f"{name} Adli Not silindi!")
+    except:
+        print("Belə not yoxdur!")
 
 
