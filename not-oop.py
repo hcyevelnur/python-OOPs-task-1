@@ -31,9 +31,9 @@ if (sys.argv[1] == "elan" and sys.argv[2] == "yarat"):
     elan.eylansaxla()
 elif sys.argv[1] == "elan" and sys.argv[2] == "sil":
     try:
-        name = input("Silinəcək not adını daxil et: ")
+        name = input("Silinəcək elan adını daxil et: ")
         os.remove(name)
-        print(f"{name} Adli Not silindi!")
+        print(f"{name} Adli elan silindi!")
     except:
         print("Belə not yoxdur!")
 
