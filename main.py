@@ -231,4 +231,4 @@ if (sys.argv[1] == "Kamera" and sys.argv[2] == "al"):
 
 
 
-# --- --- --- Kamera class bitdi --- --- ---
+# --- --- --- Kamera class bitdii --- --- ---
