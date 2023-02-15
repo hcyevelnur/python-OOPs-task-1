@@ -36,5 +36,3 @@ elif sys.argv[1] == "elan" and sys.argv[2] == "sil":
         print(f"{name} adli elan silindi!")
     except:
         print("Belə not yoxdur!")
-
-
